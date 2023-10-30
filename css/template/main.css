@@ -4,20 +4,49 @@
     font-family: var(--font-family);
 }
 
-.header {
-
-}
-
-.bg-img {
-    background-image: url('../template/assets/BACKGROUND_NETFLIX.jpg');
+.container {
     width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.header .bg-img img {
-    width: 148px;
-    height: 48px;
+.row {
+    width: 100%;
+}
+
+.btn {
+    color: var(--color-primary);
+    background-color: var(--color-btn);
+    border: var(--border-btn);
+    border-radius: var(--border-radius-btn);
+}
+
+.btn.md {
+    font-size: var(--font-size-btn-md);
+    padding: var(--btn-padding-md);
+}
+
+.btn.sm {
+    font-size: var(--font-size-btn-sm);
+    padding: var(--btn-padding-sm);
+}
+
+@media screen and (min-width: 1600px) {
+    .row {
+        max-width: var(--max-view-width-lg);
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .row {
+        max-width: var(--max-view-width-md);
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .row {
+        max-width: var(--max-view-width-sm);
+        padding: 0 20px;
+    }
 }

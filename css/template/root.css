@@ -9,7 +9,9 @@
     --color-popcorn2: #0c1848;
     --color-popcorn3: #081136;
     /*dimensions*/
-    --max-view-width: calc( 66.66666666666666% - 6rem );
+    --max-view-width-lg: 1600px;
+    --max-view-width-md: 1080px;
+    --max-view-width-sm: 100%;
     --font-size-xl: 48px;
     --font-size-lg: 24px;
     --font-size-md: 20px;
@@ -29,4 +31,7 @@
     --transition-btn: 250ms;
     /*font*/
     --font-family: 'Martel Sans', sans-serif;
+    /*spacing*/
+    --btn-padding-sm: 4px 16px;
+    --btn-padding-md: 12px 24px;
 }
