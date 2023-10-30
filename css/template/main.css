@@ -3,3 +3,21 @@
 * {
     font-family: var(--font-family);
 }
+
+.header {
+
+}
+
+.bg-img {
+    background-image: url('../template/assets/BACKGROUND_NETFLIX.jpg');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header .bg-img img {
+    width: 148px;
+    height: 48px;
+}
