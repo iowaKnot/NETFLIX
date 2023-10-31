@@ -1,0 +1,64 @@
+nav {
+    position: absolute;
+    height: 92px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+nav .nav__logo svg {
+    height: 40px;
+    width: auto;
+    fill: #e50914;
+}
+
+nav .nav__actions {
+    height: 40px;
+    width: auto;
+}
+
+header {
+    position: absolute;
+    height: 92px;
+    top: 300px;
+    left: 0;
+    z-index: 9;
+}
+
+#bkgd__img {
+    width: 100%;
+    height: auto;
+    max-height: auto;
+}
+
+header h1 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-xl);
+}
+
+header h2 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-lg);
+}
+
+header h3 {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-sm);
+}
+
+header p {
+    color: var(--color-primary);
+}
+
+select {
+    color: white;
+    background-color: rgb(19, 18, 18);
+    opacity: 0.8;
+}
+
+header input {
+    background-color: rgb(19, 18, 18);
+    opacity: 0.8;
+    padding: 14px 60px;
+    width: 100%;
+}

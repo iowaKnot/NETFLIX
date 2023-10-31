@@ -32,6 +32,12 @@
     padding: var(--btn-padding-sm);
 }
 
+@media screen and (min-width: 2000px) {
+    .row {
+        max-width: var(--max-view-width-xl);
+    }
+}
+
 @media screen and (min-width: 1600px) {
     .row {
         max-width: var(--max-view-width-lg);

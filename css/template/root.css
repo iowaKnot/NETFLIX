@@ -9,6 +9,7 @@
     --color-popcorn2: #0c1848;
     --color-popcorn3: #081136;
     /*dimensions*/
+    --max-view-width-xl: 2000px;
     --max-view-width-lg: 1600px;
     --max-view-width-md: 1080px;
     --max-view-width-sm: 100%;
@@ -23,6 +24,7 @@
     --font-weight-md: 400;
     --font-weight-sm: 400;
     --font-weight-btn: 500;
+    --height-button: 50px;
     /* Aggiungere la HR tra le sezioni della pagina Netflix */ /* VEDERE CON JACOPO */
     /*borders*/
     --border-btn: 0;
@@ -33,5 +35,5 @@
     --font-family: 'Martel Sans', sans-serif;
     /*spacing*/
     --btn-padding-sm: 4px 16px;
-    --btn-padding-md: 12px 24px;
+    --btn-padding-md: 6px 24px;
 }
