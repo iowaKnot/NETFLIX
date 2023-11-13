@@ -1,0 +1,37 @@
+:root {
+    /*colors*/
+    --color-primary: white;
+    --color-secondary: black;
+    --color-btn: #e50914;
+    --color-footer: #a2abb0;
+    --color-questions: #2d2d2d;
+    --color-popcorn1: #751333;
+    --color-popcorn2: #0c1848;
+    --color-popcorn3: #081136;
+    /*dimensions*/
+    --max-view-width-lg: 1600px;
+    --max-view-width-md: 1080px;
+    --max-view-width-sm: 100%;
+    --font-size-xl: 48px;
+    --font-size-lg: 24px;
+    --font-size-md: 20px;
+    --font-size-sm: 16px;
+    --font-size-btn-md: 24px;
+    --font-size-btn-sm: 14px;
+    --font-weight-xl: 900;
+    --font-weight-lg: 400;
+    --font-weight-md: 400;
+    --font-weight-sm: 400;
+    --font-weight-btn: 500;
+    /* Aggiungere la HR tra le sezioni della pagina Netflix */ /* VEDERE CON JACOPO */
+    /*borders*/
+    --border-btn: 0;
+    --border-radius-btn: 0.25rem;
+    /*timing*/
+    --transition-btn: 250ms;
+    /*font*/
+    --font-family: 'Martel Sans', sans-serif;
+    /*spacing*/
+    --btn-padding-sm: 4px 16px;
+    --btn-padding-md: 12px 24px;
+}
